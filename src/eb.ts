@@ -122,6 +122,14 @@ const completionSpec: Fig.Spec = {
       name: "abort",
       description: "Abort the current running process",
     },
+    {
+      name: "use",
+      description: "Sets the specified environment as the default environment",
+      args: {
+        name: "environment-name",
+        description: "The name of the environment to use",
+      },
+    },
   ],
 };
 
